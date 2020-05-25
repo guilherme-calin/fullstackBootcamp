@@ -1,0 +1,62 @@
+.rgb-control {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+}
+
+.control-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.control-container label {
+    width: 30%;
+}
+
+.control-container label span {
+    font-weight: bold;
+}
+
+.control-container input[type="range"] {
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+    width: 60%;
+}
+
+.control-container input[type="range"]:hover {
+    cursor: pointer;
+}
+
+.control-container input[type="text"] {
+    background-color: antiquewhite;
+    opacity: 0.7;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    text-align: center;
+    width: 10%;
+}
+
+.red-label {
+    color: red;
+}
+
+.green-label {
+    color: green;
+}
+
+.blue-label {
+    color: blue;
+}
+
+.box {
+    border: 1px solid black;
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem auto;
+}
