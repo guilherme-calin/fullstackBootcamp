@@ -1,0 +1,19 @@
+.YearMonth select{
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.YearMonth .greyed{
+    color : grey;
+    color : rgba(128,128,128, 0.5);
+}
+
+.YearMonth option:first-of-type{
+    color : grey;
+    color : rgba(128,128,128, 0.5);
+}
+
+.YearMonth .greyed:focus option:not(:first-child){
+    color : black;
+    color : rgba(0,0,0, 1);
+}

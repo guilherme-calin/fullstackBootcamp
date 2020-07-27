@@ -1,0 +1,7 @@
+{
+    "files.autoSaveDelay": 1,
+    "files.exclude": {
+        "**/.jsx": true,
+        "**/.tsx": true
+    }
+}

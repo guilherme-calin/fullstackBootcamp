@@ -1,0 +1,28 @@
+{
+  "name": "transaction-control",
+  "version": "1.0.0",
+  "description": "Projeto de controle de transações financeiras, sendo ele o desafio final do bootcamp Fullstack IGTI.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules ./src/main.js",
+    "dev": "nodemon --experimental-modules ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": ["front-end/*"]
+  },
+  "keywords": [
+    "igti;bootcamp;fullstack;backend;react;financeira;transacao"
+  ],
+  "author": "Guilherme Suardi Calin", 
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

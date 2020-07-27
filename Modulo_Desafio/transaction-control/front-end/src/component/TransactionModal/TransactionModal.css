@@ -1,0 +1,119 @@
+.TransactionModal{
+    position: fixed; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.TransactionModal.hide{
+    display: none;
+    filter: blur(21px)
+} 
+
+.TransactionModal.show{
+    display: block;
+}
+
+.TransactionModal .modal-content{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 0.5em auto;
+    z-index: 2;
+    background-color: white;
+}
+
+.TransactionModal .modal-content .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.TransactionModal .modal-content .header{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    border-bottom: 1px solid black;
+    color: whitesmoke;
+    background-color: rgba(33, 13, 218, 0.753);
+}
+
+.TransactionModal .modal-content .body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px dashed silver;
+}
+
+.TransactionModal .modal-content .body .radio-container{
+    padding: 0.5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px dashed silver;
+}
+
+.TransactionModal .modal-content .body .radio-container input[type="radio"]{
+    width: 1.7em;
+    height: 1.7em;
+    border: 1px solid black;
+}
+
+.TransactionModal .modal-content .body .input-container{
+    display:flex;
+    flex-direction: column;
+    margin: 0.5em 0.3em;
+}
+
+.TransactionModal .modal-content .body .input-container label{
+    font-size: 0.7em;
+    margin: 0.2em 0.5em;
+    align-self: flex-start;
+}
+
+.TransactionModal .modal-content .body .input-container input{
+    font-size: 0.9em;
+    border-radius: 15px;
+    padding: 0.2em 0.4em;
+}
+
+.TransactionModal .modal-content .body .input-container input:focus{
+    outline: 0;
+}
+
+.TransactionModal .modal-content .options{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.TransactionModal .modal-content .options button{
+    font-size: 1.4em;
+    padding: 0.3em;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.TransactionModal .modal-content .options .option-confirm{
+    background-color: rgba(97, 224, 18, 0.87);
+}
+
+.TransactionModal .modal-content .options .option-confirm:hover{
+    opacity: 0.7;
+}
+
+.TransactionModal .modal-content .options .option-cancel{
+    background-color: whitesmoke;
+}
+
+.TransactionModal .modal-content .options .option-cancel:hover{
+    opacity: 0.7;
+}

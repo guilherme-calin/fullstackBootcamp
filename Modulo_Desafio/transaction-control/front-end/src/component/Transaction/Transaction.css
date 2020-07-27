@@ -1,0 +1,137 @@
+.Transaction{
+    display :flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom : 1rem; 
+    height: 5.5rem;
+    box-shadow: 5px 2px 5px 1px #AAAAAA;
+}
+
+.Transaction .column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: inherit;
+}
+
+.Transaction .column div{
+    width: 100%;
+}
+
+.Transaction .column span{
+    margin: 0;
+    padding: 0 0.2em;
+}
+
+.Transaction .day-container{
+    justify-content: center;
+    border: 1px solid black;
+    width: 10%;
+    border-radius: 0px 0 0 5px;
+}
+
+.Transaction .info-container{
+    justify-content: stretch;
+    align-items : start;
+    width : 65%;
+    border:1px solid black;
+}
+
+.Transaction .value-container{
+    border:1px solid black;
+    font-family: monospace;
+    justify-content: center;
+    width: 20%;
+}
+
+.Transaction .options-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 0 0 5px 0;
+    width: 5%;
+}
+
+.Transaction .day-number{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    height: 70%;
+    font-size : 1.7em; 
+    border-bottom: 1px dashed silver; 
+}
+
+.Transaction .day-name{
+    height: auto;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.Transaction .info-container span{
+    margin: 0;
+    padding-top: 0.2em; 
+    word-wrap: break-word;
+}
+
+.Transaction .info-category{
+    background-color: #EEEEEE;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+    height: 50%;
+    border-bottom: 1px double black;
+}
+
+.Transaction .info-description{
+    font-size: 0.8em;
+    text-align: left;
+    height: 48%;
+    background-color: whitesmoke;
+
+}
+
+.Transaction .value-number{
+    font-size: 1.5em;
+}
+
+.Transaction .debt{
+    color: red;
+}
+
+
+.Transaction .credit{
+    color: green;
+}
+
+.Transaction .options-edit{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+    border-right: 1px solid black;
+}
+
+.Transaction .options-edit:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.Transaction .options-delete{
+    height: 49%;
+    width: 100%;
+    background-color: #DD0000;
+    border-right: 1px solid black;
+}
+
+.Transaction .options-delete:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+
+
