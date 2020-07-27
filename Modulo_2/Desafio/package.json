@@ -1,0 +1,23 @@
+{
+    "name": "grades-control-api",
+    "version": "1.0.0",
+    "description": "Desafio do módulo 2 do bootcamp Fullstack do IGTI, turma 04/2020. Se trata de uma API para obtenção e alteração de notas.",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --experimental-modules ./src/main.js"
+    },
+    "keywords": [
+        "igti;fullstack;bootcamp"
+    ],
+    "author": "Guilherme Suardi Calin",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    }
+}
