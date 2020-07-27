@@ -1,0 +1,12 @@
+{
+    "name": "trabalho_estados_cidades",
+    "version": "1.0.0",
+    "description": "Trabalho prático do bootcamp Fullstack do IGTI que traz informações relacionadas a cidades e estados do Brasil",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Guilherme Suardi Calin",
+    "license": "ISC"
+}
