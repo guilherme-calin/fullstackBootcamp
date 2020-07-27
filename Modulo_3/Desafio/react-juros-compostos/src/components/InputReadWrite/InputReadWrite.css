@@ -1,0 +1,28 @@
+.InputReadWrite{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: 0 0.2rem;
+}
+
+.InputReadWrite label{
+    color: #909090;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+
+}
+
+.InputReadWrite input{
+    border: 0;
+    border-bottom: 3px solid #DDDDDD;
+    font-size: 1.8rem;
+    outline: 0;
+    padding: 0 0 0.2rem;
+    transition: border 1s ease-out;
+}
+
+.InputReadWrite input:focus{
+    border-bottom: 3px solid #1212dd9c;
+}

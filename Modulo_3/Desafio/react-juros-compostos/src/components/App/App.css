@@ -1,0 +1,26 @@
+.App{
+  margin: 0 2%;
+}
+
+.App .input-row{
+  display: flex;
+}
+
+.App .input-row *{
+  flex: 1 1 auto;
+}
+
+.App .calculation-container{
+  display:flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 1rem auto;
+}
+
+.App .calculation-container > *{
+  flex: 0 1 12%;
+  min-width: 8%;
+  max-width: 12%;
+  margin: 0.4rem 0.8rem;
+}

@@ -1,0 +1,53 @@
+.MonthlyInterest{
+    background-color: #FEFEFE;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px #444444;
+    text-align: center;
+    transition: all 0.5s linear;
+}
+
+.MonthlyInterest.visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.MonthlyInterest.invisible{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.MonthlyInterest span{
+    display: block;
+    font-size: 1.5rem;
+    padding: 0 0.2rem;
+}
+
+.MonthlyInterest span:last-child{
+    background-color: whitesmoke;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px double #666666;
+    display:block;
+    font-family: monospace;
+    font-size: 1.7rem;
+    outline: 0;
+    text-align: center;
+}
+
+.MonthlyInterest .positiveAmount{
+    color: #1167B1;
+}
+
+.MonthlyInterest .negativeAmount{
+    color: #FF6600;
+}
+
+.MonthlyInterest .positiveDiff{
+    color: #009900;
+}
+
+.MonthlyInterest .negativeDiff{
+    color: #DC143C;
+}
+
