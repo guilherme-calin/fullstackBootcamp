@@ -1,0 +1,18 @@
+.Calculator{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.Calculator .row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Calculator .row:last-of-type{
+    margin-top: 1.5rem;
+}
+
+

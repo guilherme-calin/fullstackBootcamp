@@ -1,0 +1,8 @@
+.InputFullSalary {
+    margin-bottom: 1.5rem;
+}
+
+.InputFullSalary fieldset,
+.InputFullSalary input{
+    font-size: 1.3rem;
+}
