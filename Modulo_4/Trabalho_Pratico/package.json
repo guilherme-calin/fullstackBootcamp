@@ -1,0 +1,24 @@
+{
+    "name": "accounts-control-mongodb-api",
+    "version": "1.0.0",
+    "description": "Trabalho prático do módulo 4 do bootcamp Fullstack do IGTI, turma 04/2020. Se trata de uma API para transações bancárias integradas ao banco de dados mongoDB em cloud.",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --experimental-modules ./src/main.js"
+    },
+    "keywords": [
+        "igti;fullstack;bootcamp"
+    ],
+    "author": "Guilherme Suardi Calin",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.5.9"
+    }
+}
