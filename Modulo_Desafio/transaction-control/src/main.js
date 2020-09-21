@@ -45,8 +45,6 @@ async function main() {
             res.end(JSON.stringify(responseBody));  
         });
         server.all("*", (_,res) => {
-            console.log("Mestrte das teta");
-
             let responseBody = {
                 sucess : false,
                 message : "Método e/ou rota não encontrado!"
